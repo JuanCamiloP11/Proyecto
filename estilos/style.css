@@ -1,0 +1,37 @@
+.header {
+  background-color: white; }
+  .header .header__nav {
+    padding: 2rem; }
+    .header .header__nav .header__list {
+      list-style: none; }
+      .header .header__nav .header__list .header__item {
+        margin: 2rem;
+        font-size: 25px; }
+
+.main {
+  background-color: green; }
+  .main .main__parrafo {
+    font-size: 20px; }
+
+.section {
+  background-color: greenyellow;
+  margin: 3rem;
+  padding: 3rem;
+  text-align: center;
+  font-size: 27px; }
+  .section .section__titulo {
+    font-size: 70px;
+    margin: 2rem;
+    padding: 3rem; }
+
+.footer {
+  background-color: green;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px; }
+  .footer .footer__titulo {
+    font-size: 40px; }
+
+ nav li:hover {
+   transform: scale(1.2);
+ } 

@@ -1,0 +1,43 @@
+.header{
+    background-color: white;
+    .header__nav{
+        padding: 2rem;
+        .header__list{
+            list-style: none;
+            .header__item{
+                margin: 2rem;
+                font-size: 25px;
+            }
+        }
+    }
+}
+.main{
+    background-color: green;
+    .main__parrafo{
+        font-size: 20px;
+    }
+}
+.section{
+    background-color: greenyellow;
+    margin: 3rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: 27px;
+    .section__titulo{
+        font-size: 70px;
+        margin: 2rem;
+        padding: 3rem;
+    .section__img{
+        margin: 3rem;
+    }
+    }
+}
+.footer{
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    .footer__titulo{
+        font-size: 40px;
+    }
+}
