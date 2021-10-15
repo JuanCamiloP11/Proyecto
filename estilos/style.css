@@ -1,5 +1,6 @@
 .header {
-  background-color: white; }
+  background-color: white;
+  width: 100%; }
   .header .header__nav {
     padding: 2rem; }
     .header .header__nav .header__list {
@@ -9,29 +10,36 @@
         font-size: 25px; }
 
 .main {
-  background-color: green; }
+  background-color: #81B214;
+  align-items: center; }
   .main .main__parrafo {
-    font-size: 20px; }
+    font-size: 24px; }
 
 .section {
-  background-color: greenyellow;
-  margin: 3rem;
-  padding: 3rem;
+  background-color: #81B214;
+  margin: rem;
+  padding: rem;
   text-align: center;
-  font-size: 27px; }
+  font-size: 23px; }
   .section .section__titulo {
-    font-size: 70px;
-    margin: 2rem;
-    padding: 3rem; }
+    font-size: 40px;
+    margin: rem;
+    padding: rem;
+    text-align: center; }
 
 .footer {
   background-color: green;
   text-align: center;
   padding: 1rem;
-  font-size: 20px; }
+  font-size: 16px; }
   .footer .footer__titulo {
-    font-size: 40px; }
+    font-size: 20px; }
 
  nav li:hover {
    transform: scale(1.2);
  } 
+
+ .TituloBien {
+   font-size: 40px;
+   text-align: center;
+ }

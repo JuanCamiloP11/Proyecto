@@ -12,24 +12,22 @@
     }
 }
 .main{
-    background-color: green;
-    .main__parrafo{
+    background-color: #81B214;
+        .main__parrafo {
         font-size: 20px;
+        }
     }
 }
 .section{
-    background-color: greenyellow;
+    background-color: #81B214;
     margin: 3rem;
     padding: 3rem;
     text-align: center;
-    font-size: 27px;
+    font-size: 20px;
     .section__titulo{
-        font-size: 70px;
-        margin: 2rem;
-        padding: 3rem;
-    .section__img{
+        font-size: 40px;
         margin: 3rem;
-    }
+        padding: 3rem;
     }
 }
 .footer{
@@ -38,6 +36,6 @@
     padding: 1rem;
     font-size: 20px;
     .footer__titulo{
-        font-size: 40px;
+        font-size: 20px;
     }
 }

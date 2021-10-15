@@ -15,11 +15,11 @@
     <header class="header">
         <nav class="header__nav navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand img-fluid" href="#"><img class="logo" src="./img/logoPagina.jpg" alt="logo"></a>
+              <a class="navbar-brand img-fluid align-items-center" href="#"><img class="logo" src="./img/logoPagina.jpg" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+              <div class="collapse navbar-collapse justify-content-right" id="navbarNav">
                 <ul class="header__list navbar-nav align-items-center">
                   <li class="header__item nav-item">
                     <a class="nav-link active" aria-current="page" href="./vistas/inscripciones.html">Inscripciones</a>
@@ -29,6 +29,8 @@
                   </li>
                   <li class="header__item nav-item">
                     <a class="nav-link" href="./vistas/contacto.html">Contacto</a>
+                  <li class="header__item nav-item">
+                    <a class="nav-link" href="./vistas/nosotros.html">Nosotros</a>
                   </li>
                 </ul>
               </div>
@@ -37,44 +39,13 @@
         </header>
           <main class="main hero container-fluid p-5">
             <div class="row">
-                <div class="col-md-6">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./img/niñosSentados.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./img/niñoColoreando.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./img/niñosClase.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-md-6 align-self-center">
+                <div class="col-md-8 align-self-center">
                     <h1 class="TituloBien">Tareas del Colegio</h1>
+                    <img src="./img/ninosClase.jpg" width="100%" alt="niños en clase">
                     <p class="main__parrafo">El Conocimiento, como base fundamental de todas nuestras decisiones, deber llegar a nosotros de la manera correcta para poder ser asimilado y aplicado eficazmente. Desde que el cerebro se desarrolla, en el vientre de la madre, recibe genéticamente una serie de datos que son inmodificables; funciones de los sentidos, funciones de nuestro cuerpo y demás actividades que el niño, acabando de nacer, sabe hacer sin habérselas enseñado. Desde que el cerebro se desarrolla, en el vientre de la madre, recibe genéticamente una serie de datos que son inmodificables; funciones de los sentidos, funciones de nuestro cuerpo y demás actividades que el niño, acabando de nacer, sabe hacer sin habérselas enseñado.</p>
                 </div>
             </div>
         </main>
-        <section class="section">
-          <h2 class="section__titulo">¿QUÉ SOMOS?</h2>
-          <P class="section__parrafo">Somos un Centro de Nivelación y Acompañamiento Académico que busca en los estudiantes la genialidad individual, sin olvidar su actuar colectivo. Buscamos además, la generación de correctos hábitos académicos y, por supuesto, el adecuado uso del tiempo como estrategia para el éxito.</P>
-        </section>
         <footer class="footer">
           <h3 class="footer__titulo">MEDIOS DE CONTACTO</h3>
           <p class="footer__texto">CELULAR: 323 303 5476</p>
@@ -83,6 +54,5 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
     </body>
 </html>
